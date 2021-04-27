@@ -1,0 +1,24 @@
+{
+  "name": "desafio-docker-1",
+  "version": "1.0.0",
+  "description": "Crie um programa utilizando sua linguagem de programação favorita que faça uma listagem simples do nome de alguns módulos do curso Full Cycle os trazendo de um banco de dados MySQL. Gere a imagem desse container e a publique no DockerHub.  Gere uma imagem do nginx que seja capaz que receber as solicitações http e encaminhá-las para o container.  Crie um repositório no github com todo o fonte do programa e das imagens geradas.  Crie um arquivo README.md especificando quais comandos precisamos executar para que a aplicação funcione recebendo as solicitações na porta 8080 de nosso computador. Lembrando que NÃO utilizaremos Docker-compose nesse desafio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitoraa/desafio-docker-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitoraa/desafio-docker-1/issues"
+  },
+  "homepage": "https://github.com/vitoraa/desafio-docker-1#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
